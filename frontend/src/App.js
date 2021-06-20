@@ -18,25 +18,31 @@ function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <Link to="/users">Users</Link>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
 
         <Switch>
-          <Route path="/about">
-            <About />
+          <Route path="/projects">
+            <Projects />
           </Route>
-          <Route path="/users">
-            <Users />
+          <Route path="/contact">
+            <Contact />
           </Route>
+          {/* o path "/" tem que ser o último para funcionar */}
           <Route path="/">
+            {/* Hero section e about me juntos
+                Posso combinar os dois num componente
+                Main = Hero + About */}
             <Home />
           </Route>
         </Switch>
+
+        <h2>Footer</h2>
       </div>
     </Router>
   );
@@ -46,12 +52,12 @@ function Home() {
   return <h2>Home</h2>;
 }
 
-function About() {
-  return <h2>About</h2>;
+function Projects() {
+  return <h2>Projects</h2>;
 }
 
-function Users() {
-  return <h2>Users</h2>;
+function Contact() {
+  return <h2>Contact</h2>;
 }
 
 export default App;
