@@ -49,6 +49,6 @@ export const NavMenu = styled.nav`
 export const HR = styled.hr`
   width: 90%;
   margin-top: 0;
-  border: 1px solid var(--text-primary);
+  border: 1px solid var(--text-secondary);
   border-radius: 50px;
 `;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.section`
-  height: calc(100vh - var(--nav-menu-size));
+  min-height: calc(100vh - var(--nav-menu-size));
   width: 100%;
 
   display: flex;

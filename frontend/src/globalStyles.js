@@ -22,7 +22,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: RobotoMono, monospace;
-    /* background-color: var(--text-primary); */
+    background-color: var(--text-primary);
   }
 
   body::-webkit-scrollbar {
