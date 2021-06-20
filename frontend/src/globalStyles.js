@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
     --bg-primary: #23232e;
     --bg-secondary: #141418;
     --bg-main: #2f3542;
-    --transition-speed: 600ms;
+    --transition-speed: 300ms;
     --nav-menu-size: 7vh;
   }
 

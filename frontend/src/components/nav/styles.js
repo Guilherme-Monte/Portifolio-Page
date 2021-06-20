@@ -24,6 +24,11 @@ export const MyName = styled.p`
   font-size: 1.4rem;
 
   color: var(--text-secondary);
+  transition: var(--transition-speed);
+
+  :hover {
+    color: var(--hover-color);
+  }
 `;
 
 export const NavMenu = styled.nav`
@@ -33,7 +38,11 @@ export const NavMenu = styled.nav`
   justify-content: space-between;
   
   a {
+    transition: var(--transition-speed);
     color: var(--text-secondary);
+    :hover {
+    color: var(--hover-color);
+  }
   }
 `;
 
