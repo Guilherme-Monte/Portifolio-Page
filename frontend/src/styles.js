@@ -47,15 +47,15 @@ export const ReversedButton = props =>
 
 // Para criar tema: (em um arquivo)
 
-export default {
-  border: {
-    radius: "10px"
-  },
-  theme_colors: {
-    primary: "#fff",
-    secondary: "#f3f300"
-  }
-}
+// export default {
+//   border: {
+//     radius: "10px"
+//   },
+//   theme_colors: {
+//     primary: "#fff",
+//     secondary: "#f3f300"
+//   }
+// }
 
 // Not recomended:
 
