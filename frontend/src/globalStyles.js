@@ -32,8 +32,8 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const MainSection = styled.section`
-  height: 100vh;
-  min-width: 100%;
+  min-height: 100vh;
+  width: 100%;
 
   @media(max-width: 800px) {
   }

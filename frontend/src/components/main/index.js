@@ -5,7 +5,9 @@ import { MainSection } from "./styles.js";
 const Main = () => {
 
   function Home() {
-    return <h2>Home</h2>;
+    return (
+      <><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2><h2>Home</h2></>
+    );
   }
 
   function Projects() {
