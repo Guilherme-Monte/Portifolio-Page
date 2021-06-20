@@ -25,6 +25,18 @@ export const GlobalStyle = createGlobalStyle`
     background-color: var(--text-primary);
   }
 
+  body::-webkit-scrollbar {
+    width: 0.4rem;
+  }
+
+  body::-webkit-scrollbar-track {
+    background-color: var(--hover-color);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #1e1e24;
+  }
+
   a {
     text-decoration: none;
     outline: none;

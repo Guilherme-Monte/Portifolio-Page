@@ -2,9 +2,12 @@ import styled from "styled-components";
 
 export const NavContainer = styled.section`
   width: 100%;
+  /* Remove the following code and the margin on the main section to get rid of the fixed-nav styling */
   position: fixed;
   top: 0;
   left: 0;
+
+  background-color: transparent;
 `;
 
 export const Header = styled.header`

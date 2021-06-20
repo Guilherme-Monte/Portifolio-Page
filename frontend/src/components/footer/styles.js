@@ -9,7 +9,6 @@ export const GlobalStyle = createGlobalStyle`
 export const FooterSection = styled.section`
   width: 100%;
   height: 20vh;
-  padding: 5px;
   font-size: 0.8rem;
 
   display: flex;
