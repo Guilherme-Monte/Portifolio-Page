@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { GlobalStyle } from "./globalStyles.js";
+import { GlobalStyle, MainSection } from "./globalStyles.js";
 import Nav from "./components/nav";
 import Footer from "./components/footer";
 import Main from "./components/main";
@@ -8,12 +8,12 @@ import Main from "./components/main";
 function App() {
   return (
     <Router>
-      <div>
+      <MainSection>
         <Nav />
         <Main />
-        <Footer />
-        <GlobalStyle />
-      </div>
+      </MainSection>
+      <Footer />
+      <GlobalStyle />
     </Router>
   );
 }

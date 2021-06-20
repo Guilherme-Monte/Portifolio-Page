@@ -1,16 +1,41 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: "RobotoMono";
     src: url("./assets/fonts/RobotoMono-Bold.ttf");
   }
-  
+
+  :root {
+    font-size: 16px;
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --hover-color: #a55eea;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --bg-main: #2f3542;
+    --transition-speed: 600ms;
+  }
+
   body {
     margin: 0;
+    padding: 0;
     font-family: RobotoMono, monospace;
   }
-`
+
+  a {
+    text-decoration: none;
+    outline: none;
+  }
+`;
+
+export const MainSection = styled.section`
+  height: 100vh;
+  width: 100%;
+
+  @media(max-width: 800px) {
+  }
+`;
 
 // export const Button = styled.button`
 //   background-color: transparent;
