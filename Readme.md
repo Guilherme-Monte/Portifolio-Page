@@ -1,7 +1,7 @@
 ## What to use on this project?
 - React Router ✅
 - Context API
-- Styled components
+- Styled components ✅
 - Github's API
 - English Version
 
@@ -21,8 +21,8 @@
 -> also check languages_url, language, has_pages, description and homepage on the repos for host url
 
 ### To do:
-- Footer
-- Nav
+- Footer ✅
+- Nav ✅
 - Main
 - Contact
 - Projects (take a look at github's API first)
