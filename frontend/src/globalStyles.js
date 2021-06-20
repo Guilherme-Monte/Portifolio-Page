@@ -15,12 +15,14 @@ export const GlobalStyle = createGlobalStyle`
     --bg-secondary: #141418;
     --bg-main: #2f3542;
     --transition-speed: 600ms;
+    --nav-menu-size: 7vh;
   }
 
   body {
     margin: 0;
     padding: 0;
     font-family: RobotoMono, monospace;
+    background-color: var(--text-primary);
   }
 
   a {
@@ -31,7 +33,7 @@ export const GlobalStyle = createGlobalStyle`
 
 export const MainSection = styled.section`
   height: 100vh;
-  width: 100%;
+  min-width: 100%;
 
   @media(max-width: 800px) {
   }
