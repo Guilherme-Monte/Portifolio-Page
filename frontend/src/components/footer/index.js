@@ -11,8 +11,8 @@ const Footer = () => {
 
       <FooterNav>
         <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/projects">Projetos</Link>
+        <Link to="/contact">Contato</Link>
       </FooterNav>
 
       <FooterArticle>

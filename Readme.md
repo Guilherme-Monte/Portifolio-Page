@@ -23,6 +23,6 @@
 ### To do:
 - Footer ✅
 - Nav ✅
-- Main
+- Main (Missing about section)
 - Contact
 - Projects (take a look at github's API first)

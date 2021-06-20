@@ -23,7 +23,7 @@ export const MyName = styled.p`
   font-weight: bolder;
   font-size: 1.4rem;
 
-  color: var(--bg-primary);
+  color: var(--text-secondary);
 `;
 
 export const NavMenu = styled.nav`
@@ -33,13 +33,13 @@ export const NavMenu = styled.nav`
   justify-content: space-between;
   
   a {
-    color: var(--bg-primary);
+    color: var(--text-secondary);
   }
 `;
 
 export const HR = styled.hr`
   width: 90%;
   margin-top: 0;
-  border: 1.5px solid var(--bg-primary);
+  border: 1px solid var(--text-primary);
   border-radius: 50px;
 `;

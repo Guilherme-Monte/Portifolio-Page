@@ -1,14 +1,10 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
-import { MainSection } from "./styles.js";
+import { MainSection, VideoContainer, VideoPlayer, VideoPlayerAfter } from "./styles.js";
+import Hero from "./hero";
+import video from "../../assets/videos/Lake.mp4";
 
 const Main = () => {
-  function Home() {
-    return (
-      <><h2>Home</h2></>
-    );
-  }
-
   function Projects() {
     return <h2>Projects</h2>;
   }
@@ -23,14 +19,22 @@ const Main = () => {
         <Route path="/projects">
           <Projects />
         </Route>
+
         <Route path="/contact">
           <Contact />
         </Route>
+
         {/* o path "/" tem que ser o último para funcionar */}
         <Route path="/">
-          <Home />
+          <Hero />
         </Route>
       </Switch>
+
+      <VideoContainer>
+        <VideoPlayer src={video} playsinline autoPlay muted loop></VideoPlayer>
+      </VideoContainer>
+      <VideoPlayerAfter></VideoPlayerAfter>
+
     </MainSection>
   )
 }
