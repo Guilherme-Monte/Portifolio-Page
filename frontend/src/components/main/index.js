@@ -2,12 +2,9 @@ import React from 'react';
 import { Switch, Route } from "react-router-dom";
 import { MainSection } from "./styles.js";
 import Hero from "./hero";
+import Projects from './projects/index.js';
 
 const Main = () => {
-  function Projects() {
-    return <h2>Projects</h2>;
-  }
-
   function Contact() {
     return <h2>Contact</h2>;
   }

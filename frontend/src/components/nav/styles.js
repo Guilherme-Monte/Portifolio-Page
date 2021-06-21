@@ -7,6 +7,8 @@ export const NavContainer = styled.section`
   top: 0;
   left: 0;
 
+  z-index: 2;
+
   background-color: transparent;
 `;
 

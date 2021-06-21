@@ -25,4 +25,10 @@
 - Nav ✅
 - Main ✅
 - Contact
-- Projects (take a look at github's API first)
+- Projects (take a look at github's API first) ✅
+- Colors
+
+### Bugs:
+- Failing to decode the font, downloading a recent version will probably solve it
+- Errors: Failed to decode downloaded font: http://localhost:3000/assets/fonts/RobotoMono-Bold.ttf
+projects:1 OTS parsing error: invalid sfntVersion: 1008813135
