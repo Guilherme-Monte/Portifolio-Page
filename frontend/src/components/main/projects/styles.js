@@ -11,10 +11,17 @@ export const ProjectsContainer = styled.section`
   position: relative;
 `;
 
-export const Link = styled.a`  
+export const Link = styled.a`
+  color: #000;
   display: flex;
   align-items: center;
   gap: 5px;
+`;
+
+export const UserInfo = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 `;
 
 export const UserAvatar = styled.img`
@@ -23,10 +30,15 @@ export const UserAvatar = styled.img`
   border-radius: 50%;
 `;
 
-export const UserInfo = styled.div`
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+export const UserBio = styled.p`
+  padding: 10px;
+  min-height: 15px;
+  width: 40%;
+  font-size: 0.8rem;
+  text-align: center;
+
+  background-color: var(--bg-main);
+  color: var(--text-primary);
 `;
 
 export const PublicRepoTitle = styled.h1`

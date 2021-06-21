@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { usersApi, reposApi } from "../../../services/githubApi";
-import { UserAvatar, UserInfo, ProjectsContainer, Link, ReposBlock, RepoTitle, PublicRepoTitle, RepoInfoContainer, RepoCard, MiniFooter } from "./styles";
+import { UserAvatar, UserInfo, ProjectsContainer, Link, ReposBlock, RepoTitle, PublicRepoTitle, RepoInfoContainer, RepoCard, MiniFooter, UserBio } from "./styles";
 
 const Projects = () => {
   const [user, setUser] = useState({});
@@ -33,7 +33,7 @@ const Projects = () => {
           <p>Guilherme-Monte</p>
         </Link>
 
-        <p>{user.bio}</p>
+        <UserBio>{user.bio}</UserBio>
       </UserInfo>
       <div>
         <PublicRepoTitle>Repositórios públicos: {user.public_repos}</PublicRepoTitle>
