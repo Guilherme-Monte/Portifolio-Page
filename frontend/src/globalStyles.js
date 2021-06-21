@@ -44,7 +44,7 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const MainSection = styled.section`
-  min-height: 100vh;
+  min-height: 90vh;
   width: 100%;
 
   @media(max-width: 800px) {

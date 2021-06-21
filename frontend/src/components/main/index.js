@@ -1,8 +1,7 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
-import { MainSection, VideoContainer, VideoPlayer, VideoPlayerAfter } from "./styles.js";
+import { MainSection } from "./styles.js";
 import Hero from "./hero";
-import video from "../../assets/videos/Lake.mp4";
 
 const Main = () => {
   function Projects() {
@@ -29,12 +28,6 @@ const Main = () => {
           <Hero />
         </Route>
       </Switch>
-
-      <VideoContainer>
-        <VideoPlayer src={video} playsinline autoPlay muted loop></VideoPlayer>
-      </VideoContainer>
-      <VideoPlayerAfter></VideoPlayerAfter>
-
     </MainSection>
   )
 }

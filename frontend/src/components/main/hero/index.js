@@ -1,6 +1,7 @@
 import React from 'react';
-import { HeroContainer, HeroCaption, Description, Button } from './styles';
+import { HeroContainer, HeroCaption, Description, Button, VideoContainer, VideoPlayer, VideoPlayerAfter } from './styles';
 import About from "./about";
+import video from "../../../assets/videos/Lake.mp4";
 
 const Hero = () => {
   return (
@@ -11,10 +12,14 @@ const Hero = () => {
           <Description>Desenvolvedor React Front-End com experiência extensiva em suporte ao cliente, motivado a aumentar a otimização de códigos.</Description>
           <a href="#about">
             <Button>
-              About me
+              Sobre mim
             </Button>
           </a>
         </div>
+        <VideoContainer>
+          <VideoPlayer src={video} playsinline autoPlay muted loop></VideoPlayer>
+        </VideoContainer>
+        <VideoPlayerAfter></VideoPlayerAfter>
       </HeroContainer>
       <About />
     </>
