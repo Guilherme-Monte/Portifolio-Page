@@ -64,8 +64,9 @@ export const RepoTitle = styled.p`
   width: 100%;
   font-size: 1.1rem;
   font-weight: 600;
-
   margin-bottom: 0;
+
+  color: var(--text-secondary);
 `;
 
 export const RepoInfoContainer = styled.article`

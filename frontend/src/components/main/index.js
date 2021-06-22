@@ -3,11 +3,9 @@ import { Switch, Route } from "react-router-dom";
 import { MainSection, BgImgContainer, BgImgAfter } from "./styles.js";
 import Hero from "./hero";
 import Projects from './projects/index.js';
+import Contact from './contact/index.js';
 
 const Main = () => {
-  function Contact() {
-    return <h2>Contact</h2>;
-  }
 
   return (
     <MainSection>

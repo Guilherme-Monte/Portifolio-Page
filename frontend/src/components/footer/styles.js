@@ -33,4 +33,10 @@ export const FooterArticle = styled.article`
 export const Socials = styled.a`
   display: flex;
   gap: 3px;
+
+  transition: var(--transition-speed);
+
+  &:hover {
+    color: var(--hover-color);
+  }
 `;

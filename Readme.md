@@ -1,9 +1,9 @@
 ## What to use on this project?
 - React Router ✅
-- Context API
+- Context API ❌ (doesn't apply)
 - Styled components ✅
-- Github's API
-- English Version
+- Github's API ✅
+- English Version (soon)
 
 
 ## Reminders

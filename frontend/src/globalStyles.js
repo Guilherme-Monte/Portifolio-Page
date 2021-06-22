@@ -16,6 +16,8 @@ export const GlobalStyle = createGlobalStyle`
     --bg-main: #2f3542;
     --transition-speed: 300ms;
     --nav-menu-size: 7vh;
+    scroll-padding-top: var(--nav-menu-size);
+    scroll-behavior: smooth;
   }
 
   body {
@@ -40,6 +42,7 @@ export const GlobalStyle = createGlobalStyle`
   a {
     text-decoration: none;
     outline: none;
+    color: var(--text-secondary);
   }
 `;
 
