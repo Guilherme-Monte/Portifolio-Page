@@ -13,6 +13,7 @@
 - Projects (take a look at github's API first) ✅
 - Extra info about the Notebook project
 - Colors
+- Improve the Projects section's layout
 
 ### Bugs:
 - Failing to decode the font, downloading a recent version will probably solve it
