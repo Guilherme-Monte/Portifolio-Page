@@ -24,7 +24,7 @@
 - Footer ✅
 - Nav ✅
 - Main ✅
-- Contact
+- Contact ✅
 - Projects (take a look at github's API first) ✅
 - Extra info about the Notebook project
 - Colors
