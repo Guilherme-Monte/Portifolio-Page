@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { usersApi, reposApi } from "../../../services/githubApi";
-import { UserAvatar, UserInfo, ProjectsContainer, Link, ReposBlock, RepoTitle, PublicRepoTitle, RepoInfoContainer, RepoCard, MiniFooter, UserBio, BgImgContainer, BgImgAfter } from "./styles";
+import { UserAvatar, UserInfo, ProjectsContainer, Link, ReposBlock, RepoTitle, PublicRepoTitle, RepoInfoContainer, RepoCard, MiniFooter, UserBio } from "./styles";
 
 const Projects = () => {
   const [user, setUser] = useState({});
@@ -60,8 +60,6 @@ const Projects = () => {
         }
       </div>
       <MiniFooter>Página feita utilizando a API do Github</MiniFooter>
-      <BgImgContainer></BgImgContainer>
-      <BgImgAfter></BgImgAfter>
     </ProjectsContainer >
   )
 }

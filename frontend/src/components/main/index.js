@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
-import { MainSection } from "./styles.js";
+import { MainSection, BgImgContainer, BgImgAfter } from "./styles.js";
 import Hero from "./hero";
 import Projects from './projects/index.js';
 
@@ -14,10 +14,14 @@ const Main = () => {
       <Switch>
         <Route path="/projects">
           <Projects />
+          <BgImgContainer></BgImgContainer>
+          <BgImgAfter></BgImgAfter>
         </Route>
 
         <Route path="/contact">
           <Contact />
+          <BgImgContainer></BgImgContainer>
+          <BgImgAfter></BgImgAfter>
         </Route>
 
         {/* o path "/" tem que ser o último para funcionar */}
