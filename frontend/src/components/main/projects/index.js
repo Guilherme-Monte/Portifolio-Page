@@ -40,7 +40,7 @@ const Projects = () => {
         {
           repos.map((element) => {
             return (
-              <ReposBlock>
+              <ReposBlock key={element.name}>
                 <RepoTitle>{element.name}</RepoTitle>
                 <RepoInfoContainer>
                   <RepoCard bigText color="var(--hover-color)">{element.description}</RepoCard>
