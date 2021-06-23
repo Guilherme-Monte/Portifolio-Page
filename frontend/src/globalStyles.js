@@ -10,8 +10,8 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 27px;
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
-    --hover-color: #a55eea;
-    --bg-primary: #23232e;
+    --hover-color: #336699;
+    --bg-primary: #2F4858;
     --bg-secondary: #141418;
     --bg-main: #2f3542;
     --transition-speed: 300ms;

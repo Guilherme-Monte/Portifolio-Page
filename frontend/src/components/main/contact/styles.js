@@ -138,7 +138,7 @@ export const EnButton = styled.a`
 
 export const InfoContainer = styled.div`
   padding: 40px 0;
-  margin: 0 25%;
+  margin: 100px 25% 20px 25%;
   width: 50%;
 
   background-color: var(--bg-primary);

@@ -63,7 +63,7 @@ export const Button = styled.button`
   }
 
   &:hover {
-    color: var(--bg-primary);
+    color: var(--bg-secondary);
     border: 1px solid var(--hover-color);
   }
 

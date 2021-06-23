@@ -48,7 +48,7 @@ export const PublicRepoTitle = styled.h1`
 
   text-align: center;
 
-  color: gold;
+  color: #9EE493;
 `;
 
 export const ReposBlock = styled.section`
