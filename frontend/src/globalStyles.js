@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   :root {
-    font-size: 16px;
+    font-size: 27px;
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
     --hover-color: #a55eea;
@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
     --bg-main: #2f3542;
     --transition-speed: 300ms;
     --nav-menu-size: 7vh;
-    scroll-padding-top: var(--nav-menu-size);
+    scroll-padding-top: calc(var(--nav-menu-size) + 3vh);
     scroll-behavior: smooth;
   }
 

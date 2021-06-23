@@ -11,9 +11,9 @@
 - Main ✅
 - Contact ✅
 - Projects (take a look at github's API first) ✅
-- Fix the wrong sizes
-- Extra info about the Notebook project
+- Fix the wrong sizes ✅
 - Colors
+- Extra info about the Notebook project
 - Improve the Projects section's layout
 
 ### Bugs:

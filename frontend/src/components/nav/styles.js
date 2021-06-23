@@ -34,7 +34,7 @@ export const MyName = styled.p`
 `;
 
 export const NavMenu = styled.nav`
-  gap: 20px;
+  gap: 34px;
 
   display: flex;
   justify-content: space-between;

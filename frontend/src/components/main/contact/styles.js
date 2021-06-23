@@ -11,13 +11,13 @@ export const MainBlock = styled.div`
   display: flex;
   justify-content: space-between;
 
-  margin: 0 40px;
+  margin: 0 68px;
 `;
 
 export const Socials = styled.a`
   display: flex;
   align-items: center;
-  gap: 3px;
+  gap: 8px;
 
   color: var(--text-secondary);
 `;
@@ -52,9 +52,9 @@ export const PtButton = styled.a`
 
   position: relative;
 
-  width: 140px;
+  width: 240px;
   font-size: 0.8rem;
-  height: 40px;
+  height: 50px;
   margin: auto;
   grid-area: pt-button;
 
@@ -102,9 +102,9 @@ export const EnButton = styled.a`
 
   position: relative;
 
-  width: 140px;
+  width: 240px;
   font-size: 0.8rem;
-  height: 40px;
+  height: 50px;
   margin: auto;
   grid-area: en-button;
 
@@ -138,7 +138,11 @@ export const EnButton = styled.a`
 
 export const InfoContainer = styled.div`
   padding: 40px 0;
-  width: 100%;
+  margin: 0 25%;
+  width: 50%;
+
+  background-color: var(--bg-primary);
+  opacity: 0.8;
 
   display: flex;
   flex-direction: column;

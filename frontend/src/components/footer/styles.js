@@ -32,7 +32,7 @@ export const FooterArticle = styled.article`
 
 export const Socials = styled.a`
   display: flex;
-  gap: 3px;
+  gap: 5px;
 
   transition: var(--transition-speed);
 

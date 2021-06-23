@@ -11,12 +11,12 @@ import { IconContext } from "react-icons";
 const About = () => {
   return (
     <AboutContainer id="about">
-      <IconContext.Provider value={{ size: "35px", style: { marginRight: '10px' } }}>
+      <IconContext.Provider value={{ size: "50px", style: { marginRight: '10px' } }}>
         <WhoAmIContainer>
           <h2>Quem sou eu:</h2>
 
           <AboutArticle>
-            <RiCactusFill size="20px" title="Cactus" color="green" />
+            <RiCactusFill size="39px" title="Cactus" color="green" />
             <p>Brasileiro, atualmente residindo em Teofilândia - BA</p>
           </AboutArticle>
 
@@ -31,12 +31,12 @@ const About = () => {
           </AboutArticle>
 
           <AboutArticle>
-            <RiComputerLine size="35px" title="Computer" />
+            <RiComputerLine size="50px" title="Computer" />
             <p>Atuei na área por 5 meses na Econvert Digital, como desenvolvedor Front-End e fornecendo suporte ao cliente</p>
           </AboutArticle>
 
           <AboutArticle>
-            <FaRegGrinTongueSquint color="#f39c12" size="20px" title="Tongue emote" />
+            <FaRegGrinTongueSquint color="#f39c12" size="34px" title="Tongue emote" />
             <p>Sou fluente na língua inglesa e estou estudando polonês</p>
           </AboutArticle>
           <Link to="/contact"><Button>Fale comigo</Button></Link>

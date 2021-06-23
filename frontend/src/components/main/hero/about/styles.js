@@ -1,20 +1,23 @@
 import styled from "styled-components";
 
-export const AboutContainer = styled.section`
-  scroll-margin-top: 20px;
+export const AboutContainer = styled.section`  
   display: flex;
   justify-content: space-between;
 
-  min-height: 90vh;
+  min-height: 70vh;
   width: 100%;
 
   margin-top: calc(var(--nav-menu-size) + 3vh);
 `;
 
 export const WhoAmIContainer = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   width: 50%;
-  height: 90%;
-  padding: 0 20px 25px 20px;
+  height: 550px;
+  padding: 0 34px 50px 34px;
 
   display: flex;
   flex-direction: column;
@@ -36,9 +39,13 @@ export const AboutArticle = styled.article`
 `;
 
 export const MyStackContainer = styled.article`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   width: 30%;
-  height: 90%;
-  padding: 0 20px 25px 20px;
+  height: 550px;
+  padding: 0 34px 50px 34px;
 
   text-align: center;
 

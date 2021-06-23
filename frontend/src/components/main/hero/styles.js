@@ -33,7 +33,8 @@ export const Button = styled.button`
   background-color: transparent;
   overflow: hidden;
   
-  padding: 6px 50px;
+  font-size: 0.8rem;
+  padding: 10px 85px;
   margin-top: 50px;
 
   cursor: pointer;

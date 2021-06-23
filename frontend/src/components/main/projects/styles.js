@@ -25,14 +25,14 @@ export const UserInfo = styled.div`
 `;
 
 export const UserAvatar = styled.img`
-  width: 70px;
-  height: 70px;
+  width: 119px;
+  height: 119px;
   border-radius: 50%;
 `;
 
 export const UserBio = styled.p`
-  padding: 10px;
-  min-height: 15px;
+  padding: 17.5px;
+  min-height: 23px;
   width: 40%;
   font-size: 0.8rem;
   text-align: center;
@@ -53,7 +53,7 @@ export const PublicRepoTitle = styled.h1`
 
 export const ReposBlock = styled.section`
   width: 100%;
-  min-height: 15vh;
+  min-height: 23vh;
 
   display: flex;
   align-items: center;
@@ -75,14 +75,14 @@ export const RepoInfoContainer = styled.article`
   justify-content: space-between;
   align-items: center;
 
-  gap: 10px;
+  gap: 17.5px;
 `;
 
 export const RepoCard = styled.p`
   max-width: ${props => props.bigText ? "40%" : "100%"};
   min-width: 25%;
-  min-height: 50px;
-  padding: 12px;
+  min-height: 85px;
+  padding: 21px;
 
   background-color: ${props => props.color || "var(--bg-main)"};
   color: var(--text-secondary);
@@ -97,8 +97,7 @@ export const RepoCard = styled.p`
 export const MiniFooter = styled.footer`
   font-size: 0.5rem;
 
-  width: 109% + 5px;
-  padding: 5px;
+  padding: 8px;
   margin: 0 -5.53%;
   text-align: center;
 
