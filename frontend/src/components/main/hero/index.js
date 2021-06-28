@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeroContainer, HeroCaption, Description, Button, VideoContainer, VideoPlayer, VideoPlayerAfter } from './styles';
+import { HeroContainer, HeroCaption, Description, Button, VideoContainer, VideoPlayer, VideoPlayerAfter, BgLocation } from './styles';
 import About from "./about";
 import video from "../../../assets/videos/Lake.mp4";
 
@@ -20,6 +20,7 @@ const Hero = () => {
           <VideoPlayer src={video} playsinline autoPlay muted loop></VideoPlayer>
         </VideoContainer>
         <VideoPlayerAfter></VideoPlayerAfter>
+        <BgLocation>Perast, Baía de Kotor</BgLocation>
       </HeroContainer>
       <About />
     </>

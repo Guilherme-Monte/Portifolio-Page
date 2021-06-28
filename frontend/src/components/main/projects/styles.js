@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.section`
-  width: 100%;
+  width: 90%;
   min-height: 90vh;
+  padding: 0 5%;
 
   display: flex;
   flex-direction: column;

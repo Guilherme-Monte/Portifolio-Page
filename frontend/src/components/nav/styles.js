@@ -29,7 +29,7 @@ export const MyName = styled.p`
   transition: var(--transition-speed);
 
   :hover {
-    color: var(--hover-color);
+    color: var(--bright-green);
   }
 `;
 
@@ -42,9 +42,9 @@ export const NavMenu = styled.nav`
   a {
     transition: var(--transition-speed);
     color: var(--text-secondary);
-    :hover {
-    color: var(--hover-color);
-  }
+    &:hover {
+      color: var(--bright-green);
+    }
   }
 `;
 

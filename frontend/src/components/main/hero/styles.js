@@ -3,7 +3,8 @@ import LakeCover from "../../../assets/videos/LakeCover.jpg";
 
 export const HeroContainer = styled.section`
   min-height: calc(100vh - var(--nav-menu-size));
-  width: 100%;
+  padding: 0 5%;
+  width: 90%;
 
   display: flex;
   justify-content: space-between;
@@ -12,10 +13,10 @@ export const HeroContainer = styled.section`
 
 export const HeroCaption = styled.p`
   width: 30%;
-  font-size: 1.2rem;
+  font-size: 2rem;
   z-index: 2;
 
-  color: var(--text-secondary);
+  color: var(--bright-green);
 `;
 
 export const Description = styled.p`
@@ -28,13 +29,13 @@ export const Description = styled.p`
 `;
 
 export const Button = styled.button`  
-  border: 1px solid var(--text-primary);
-  color: var(--text-primary);
+  border: 1px solid var(--bright-green);
+  color: var(--bright-green);
   background-color: transparent;
   overflow: hidden;
   
   font-size: 0.8rem;
-  padding: 10px 85px;
+  padding: 15px 85px;
   margin-top: 50px;
 
   cursor: pointer;
@@ -45,7 +46,7 @@ export const Button = styled.button`
   z-index: 1;
 
   &::before {
-    background-color: var(--hover-color);
+    background-color: var(--bright-green);
 
     left: 0;
     width: 100%;
@@ -73,7 +74,7 @@ export const Button = styled.button`
 `;
 
 export const VideoContainer = styled.div`
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -98,11 +99,20 @@ export const VideoPlayerAfter = styled.div`
   &:after {
     content: "";
     z-index: -1;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.6);
   }
+`;
+
+export const BgLocation = styled.div`
+  color: var(--text-secondary);
+  font-size: 0.5rem;
+
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
 `;

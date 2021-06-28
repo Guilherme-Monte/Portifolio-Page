@@ -13,7 +13,7 @@ const About = () => {
     <AboutContainer id="about">
       <IconContext.Provider value={{ size: "50px", style: { marginRight: '10px' } }}>
         <WhoAmIContainer>
-          <h2>Quem sou eu:</h2>
+          <h2>SOBRE MIM</h2>
 
           <AboutArticle>
             <RiCactusFill size="39px" title="Cactus" color="green" />
@@ -44,19 +44,19 @@ const About = () => {
       </IconContext.Provider>
 
       <MyStackContainer>
-        <h2>Meu stack:</h2>
-        <AboutArticle column golden>
-          <h2>Front-end:</h2>
-          <div>- ReactJS (Hooks, ContextAPI, Router)</div>
-          <div>- HTML, CSS, SCSS e JavaScript (ES6, 7 e 8)</div>
-          <div>- Styled Components</div>
+        <h2>MEU STACK</h2>
+        <h3>FRONT-END</h3>
+        <AboutArticle column green>
+          <div>-ReactJS (Hooks, ContextAPI, Router)</div>
+          <div>-HTML, CSS, SCSS e JavaScript (ES6, 7 e 8)</div>
+          <div>-Styled Components</div>
         </AboutArticle>
 
-        <AboutArticle column golden>
-          <h2>Back-end:</h2>
-          <div>- NodeJS, RESTful e Express API</div>
-          <div>- PostgreSQL e MySQL</div>
-          <div>- MongoDB</div>
+        <h3>BACK-END</h3>
+        <AboutArticle column green>
+          <div>-NodeJS, RESTful e Express API</div>
+          <div>-PostgreSQL e MySQL</div>
+          <div>-MongoDB</div>
         </AboutArticle>
 
         <Link to="/projects"><Button>Meus projetos</Button></Link>

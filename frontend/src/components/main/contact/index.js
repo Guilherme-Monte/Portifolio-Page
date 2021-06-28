@@ -30,13 +30,13 @@ const Contact = () => {
         <InfoContainer>
           <h3>Info (atualizado todo mês):</h3>
           <h4>O que pretendo estudar:</h4>
-          <SmallLetter>✅ = Iniciado / ❌ Na espera</SmallLetter>
+          <SmallLetter>✅ = Concluído / ❌ Na espera / ⌛ Em andamento</SmallLetter>
           <article>
             <p>❌ Elixir ou NestJs</p>
             <p>❌ Docker</p>
-            <p>❌ TypeScript</p>
+            <p>⌛ TypeScript:</p>
             <p>✅ Styled components</p>
-            <p>❌ React Native</p>
+            <p>⌛ React Native</p>
             <p>✅ Web Design</p>
             <p>✅ Softwares de Web Design (Canva, Figma e Dribble)</p>
           </article>

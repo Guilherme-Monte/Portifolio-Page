@@ -11,11 +11,13 @@ export const GlobalStyle = createGlobalStyle`
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
     --hover-color: #336699;
+    --light-blue: #86BBD8;
+    --bright-green: #04fccd;
     --bg-primary: #2F4858;
     --bg-secondary: #141418;
     --bg-main: #2f3542;
     --transition-speed: 300ms;
-    --nav-menu-size: 7vh;
+    --nav-menu-size: 8vh;
     scroll-padding-top: calc(var(--nav-menu-size) + 3vh);
     scroll-behavior: smooth;
   }

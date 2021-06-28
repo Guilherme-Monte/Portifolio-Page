@@ -60,7 +60,7 @@ const Projects = () => {
         }
       </div>
       <MiniFooter>Página feita utilizando a API do Github</MiniFooter>
-    </ProjectsContainer >
+    </ProjectsContainer>
   )
 }
 

@@ -1,33 +1,41 @@
-import styled, { createGlobalStyle } from "styled-components";
-
-export const GlobalStyle = createGlobalStyle`
-  a {
-    color: var(--hover-color);
-  }
-`;
+import styled from "styled-components";
 
 export const FooterSection = styled.section`
-  width: 100%;
-  height: 20vh;
-  font-size: 0.8rem;
+  width: 85%;
+  height: 45vh;
+  font-size: 1.1rem;
+  padding: 0 7.5%;
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 
-  background-color: var(--bg-secondary);
+  background-color: rgb(0, 0, 0, 0.8);
 `;
 
 export const FooterNav = styled.nav`
+  width: 100%;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-end;
 `;
 
 export const FooterArticle = styled.article`
   display: flex;
-  flex-direction: column;
+  flex-direction: ${props => props.oneRow ? "row" : "column"};
   justify-content: ${props => (props.flexStart ? 'flex-start' : 'center')};
   color: var(--text-primary);
+
+  text-align: ${props => props.availability ? "end" : ""};
+  width: ${props => props.availability ? "100%" : ""};
+  font-size: ${props => props.availability ? "0.6rem" : ""};
+
+  gap: ${props => props.oneRow ? "10px" : ""};
+
+  p {
+    font-size: 0.5rem;
+  }
 `;
 
 export const Socials = styled.a`
@@ -37,6 +45,17 @@ export const Socials = styled.a`
   transition: var(--transition-speed);
 
   &:hover {
-    color: var(--hover-color);
+    color: var(--bright-green);
   }
+`;
+
+export const FooterColumn = styled.div`
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 30px;
 `;
