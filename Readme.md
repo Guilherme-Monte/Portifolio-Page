@@ -16,6 +16,7 @@
 - Extra info about the Notebook project (Done on github's section) ✅
 - Improve the Projects section's layout (Box shadow on cards and a toggleable dropdown to see the project's info)
 - Video rendering optimization (Cloud: Amazon, Azure and Google Cloud)
+- Add a background color to the navigation bar when it's not at the top of the page
 
 ### Bugs:
 - Failing to decode the font, downloading a recent version will probably solve it

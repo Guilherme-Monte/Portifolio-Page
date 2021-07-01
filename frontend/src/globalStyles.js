@@ -2,8 +2,8 @@ import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   @font-face {
-    font-family: "RobotoMono";
-    src: url("./assets/fonts/RobotoMono-Bold.ttf");
+    font-family: "Montserrat";
+    src: url("./assets/fonts/Montserrat-Regular.ttf");
   }
 
   :root {
@@ -25,7 +25,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    font-family: RobotoMono, monospace;
+    font-family: 'Montserrat', sans-serif;
     background-color: var(--text-primary);
   }
 
