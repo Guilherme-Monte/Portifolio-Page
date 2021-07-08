@@ -15,7 +15,7 @@
 - Colors ✅
 - Extra info about the Notebook project (Done on github's section) ✅
 - Video rendering optimization (Cloud: Amazon, Azure and Google Cloud) Check this [link](https://stackoverflow.com/questions/31887761/how-do-i-get-video-to-load-faster-on-a-web-page) ✅
-- Improve the Projects section's layout (Box shadow on cards and a toggleable dropdown to see the project's info)
+- Improve the Projects section's layout (Box shadow on cards and a toggleable dropdown to see the project's info) ⌛ (Make the cards control each individual block, right now it's for all elements)
 - Add a background color to the navigation bar when it's not at the top of the page
 
 ### Bugs:

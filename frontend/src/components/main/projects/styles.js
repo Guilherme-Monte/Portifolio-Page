@@ -54,7 +54,6 @@ export const PublicRepoTitle = styled.h1`
 
 export const ReposBlock = styled.section`
   width: 100%;
-  min-height: 23vh;
 
   display: flex;
   align-items: center;
@@ -68,11 +67,22 @@ export const RepoTitle = styled.p`
   margin-bottom: 0;
 
   color: var(--text-secondary);
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  transition: var(--transition-speed);
+
+  &:hover {
+    cursor: pointer;
+    color: gold;
+  }
 `;
 
 export const RepoInfoContainer = styled.article`
   width: 100%;
-  display: flex;
+  display: none;
   justify-content: space-between;
   align-items: center;
 
@@ -80,6 +90,8 @@ export const RepoInfoContainer = styled.article`
 `;
 
 export const RepoCard = styled.p`
+  box-shadow: 0 0 10px var(--bg-secondary), 0 0 20px var(--bg-secondary), 0 0 40px var(--bg-secondary);
+
   max-width: ${props => props.bigText ? "40%" : "100%"};
   min-width: 25%;
   min-height: 85px;
@@ -100,6 +112,7 @@ export const MiniFooter = styled.footer`
 
   padding: 8px;
   margin: 0 -5.53%;
+  margin-top: auto;
   text-align: center;
 
   background-color: var(--bg-primary);

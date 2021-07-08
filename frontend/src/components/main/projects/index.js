@@ -1,15 +1,30 @@
 import React, { useState } from 'react';
 import { usersApi, reposApi } from "../../../services/githubApi";
 import { UserAvatar, UserInfo, ProjectsContainer, Link, ReposBlock, RepoTitle, PublicRepoTitle, RepoInfoContainer, RepoCard, MiniFooter, UserBio } from "./styles";
+import { MdArrowDownward, MdArrowUpward } from "react-icons/md";
 
 const Projects = () => {
   const [user, setUser] = useState({});
   const [repos, setRepos] = useState([]);
+  const [hidden, setHidden] = useState(true);
 
   React.useEffect(() => {
     getProfile();
     getRepos();
   }, [])
+
+  function toggleCards(index) {
+    const infoContainer = document.getElementById(`infoContainer${index}`);
+    const displayStatus = infoContainer.style.display
+
+    if (displayStatus === "flex") {
+      setHidden(true)
+      return infoContainer.style.display = "none";
+    }
+
+    setHidden(false);
+    infoContainer.style.display = "flex";
+  }
 
   async function getProfile() {
     const response = await usersApi.get("/guilherme-monte")
@@ -38,11 +53,19 @@ const Projects = () => {
       <div>
         <PublicRepoTitle>Repositórios públicos: {user.public_repos}</PublicRepoTitle>
         {
-          repos.map((element) => {
+          repos.map((element, index) => {
             return (
               <ReposBlock key={element.name}>
-                <RepoTitle>{element.name}</RepoTitle>
-                <RepoInfoContainer>
+                <RepoTitle onClick={() => { toggleCards(index) }}>
+                  {element.name}
+                  {
+                    hidden ?
+                      <MdArrowDownward />
+                      : <MdArrowUpward />
+                  }
+                </RepoTitle>
+
+                <RepoInfoContainer id={`infoContainer${index}`}>
                   <RepoCard bigText color="var(--hover-color)">{element.description}</RepoCard>
                   <RepoCard color="">Maior uso do {element.language}</RepoCard>
                   {
