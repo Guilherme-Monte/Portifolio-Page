@@ -19,9 +19,9 @@
 - Add a background color to the navigation bar when it's not at the top of the page
 
 ### Bugs:
-- Failing to decode the font, downloading a recent version will probably solve it
+- Failing to decode the font, downloading a recent version will probably solve it ✅
 - Errors: Failed to decode downloaded font: http://localhost:3000/assets/fonts/RobotoMono-Bold.ttf
-projects:1 OTS parsing error: invalid sfntVersion: 1008813135
+projects:1 OTS parsing error: invalid sfntVersion: 1008813135 ✅
 
 ## Reminders
 -- CTRL + ALT + ARROWS = Selects multiple lines
