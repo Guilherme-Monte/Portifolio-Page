@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import LakeCover from "../../../assets/videos/LakeCover.jpg";
 
 export const HeroContainer = styled.section`
   min-height: calc(100vh - var(--nav-menu-size));
@@ -80,7 +79,7 @@ export const VideoContainer = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: url(${LakeCover}) no-repeat center center/cover;
+  background: no-repeat center center/cover;
   z-index: -1;
 `;
 
