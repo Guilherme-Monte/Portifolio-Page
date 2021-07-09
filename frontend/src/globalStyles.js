@@ -34,7 +34,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body::-webkit-scrollbar-track {
-    background-color: var(--hover-color);
+    background-color: var(--bg-primary);
   }
 
   body::-webkit-scrollbar-thumb {
