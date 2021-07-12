@@ -81,7 +81,7 @@ export const PtButton = styled.a`
 
   &:hover {
     color: var(--bg-primary);
-    border: 1px solid var(--hover-color);
+    border: 1px solid var(--bright-green);
   }
 
   &:hover&::before {
@@ -112,7 +112,7 @@ export const EnButton = styled.a`
   grid-area: en-button;
 
   &::before {
-    background-color: var(--hover-color);
+    background-color: var(--bright-green);
 
     left: 0;
     width: 100%;
@@ -131,7 +131,7 @@ export const EnButton = styled.a`
 
   &:hover {
     color: var(--bg-primary);
-    border: 1px solid var(--hover-color);
+    border: 1px solid var(--bright-green);
   }
 
   &:hover&::before {
