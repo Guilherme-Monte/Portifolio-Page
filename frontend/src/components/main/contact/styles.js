@@ -62,7 +62,7 @@ export const PtButton = styled.a`
   grid-area: pt-button;
 
   &::before {
-    background-color: var(--hover-color);
+    background-color: var(--bright-green);
 
     left: 0;
     width: 100%;
@@ -140,7 +140,7 @@ export const EnButton = styled.a`
 `;
 
 export const InfoContainer = styled.div`
-  padding: 40px 0;
+  padding: 40px;
   margin: 100px 25% 20px 25%;
   width: 50%;
 
