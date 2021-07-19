@@ -32,13 +32,14 @@ const Contact = () => {
           <h4>O que pretendo estudar:</h4>
           <SmallLetter>✅ = Concluído / ❌ Na espera / ⌛ Em andamento</SmallLetter>
           <article>
-            <p>❌ Elixir ou NestJs</p>
-            <p>❌ Docker</p>
-            <p>⌛ TypeScript:</p>
             <p>✅ Styled components</p>
-            <p>⌛ React Native</p>
             <p>✅ Web Design</p>
             <p>✅ Softwares de Web Design (Canva, Figma e Dribble)</p>
+            <p>⌛ TypeScript</p>
+            <p>⌛ React Native</p>
+            <p>⌛ JestJS</p>
+            <p>❌ Elixir ou NestJs</p>
+            <p>❌ Docker</p>
           </article>
           <SmallLetter>De 22 de junho de 2021</SmallLetter>
         </InfoContainer>
