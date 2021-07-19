@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import { usersApi, reposApi } from "../../../services/githubApi";
 import { UserAvatar, UserInfo, ProjectsContainer, Link, ReposBlock, RepoTitle, PublicRepoTitle, RepoInfoContainer, RepoCard, MiniFooter, UserBio } from "./styles";
-import { MdArrowDownward, MdArrowUpward } from "react-icons/md";
 
 const Projects = () => {
   const [user, setUser] = useState({});
   const [repos, setRepos] = useState([]);
-  const [hidden, setHidden] = useState(true);
 
   React.useEffect(() => {
     getProfile();
@@ -18,11 +16,9 @@ const Projects = () => {
     const displayStatus = infoContainer.style.display
 
     if (displayStatus === "flex") {
-      setHidden(true)
       return infoContainer.style.display = "none";
     }
 
-    setHidden(false);
     infoContainer.style.display = "flex";
   }
 
@@ -58,11 +54,6 @@ const Projects = () => {
               <ReposBlock key={element.name}>
                 <RepoTitle onClick={() => { toggleCards(index) }}>
                   {element.name}
-                  {
-                    hidden ?
-                      <MdArrowDownward />
-                      : <MdArrowUpward />
-                  }
                 </RepoTitle>
 
                 <RepoInfoContainer id={`infoContainer${index}`}>

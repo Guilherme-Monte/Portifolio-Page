@@ -11,7 +11,7 @@
 - React Router ✅
 - Styled components ✅
 - Github's API ✅
-- Improve the Projects section's layout (Box shadow on cards and a toggleable dropdown to see the project's info) ⌛ (Make the cards control each individual block, right now it's for all elements) ⌛
+- Improve the Projects section's layout (Box shadow on cards and a toggleable dropdown to see the project's info) ✅
 - English Version (soon) ⌛
 - Add a background color to the navigation bar when it's not at the top of the page
 - Mobile version
